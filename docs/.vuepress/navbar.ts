@@ -11,12 +11,13 @@ export default defineNavbarConfig([
   { text: '博客', link: '/blog/' },
   { text: '笔记', link: '/note/' },
   { text: '趣题', link: '/q/' },
+  { text: '测试', link: '/q/' },
   {
     text: '时光',
     items: [
-        { text: '示例', link: '/demo/README.md' },
-        { text: '示例', link: '/demo/README.md' },
-        { text: '示例', link: '/demo/README.md' }
+        { text: '示例', link: '/note/README.md' },
+        { text: '示例', link: '/note/README.md' },
+        { text: '示例', link: '/note/README.md' }
     ]
   },
 ])
