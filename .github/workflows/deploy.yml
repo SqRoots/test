@@ -46,7 +46,7 @@ jobs:
       - name: Copy CNAME to dist
         run: |
           if [ -f CNAME ]; then
-            cp CNAME dist/
+            cp CNAME docs/.vuepress/dist/
             echo "✅ CNAME 文件已保留"
           fi
           
